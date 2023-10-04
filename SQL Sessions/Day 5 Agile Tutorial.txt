@@ -1,0 +1,260 @@
+Agile Tutorial 
+
+
+	Agile is one of the most popular approaches to project management because it is flexible, it is adaptable to changes and it encourages customer feedback.
+			
+	Many teams embrace the Agile approach for the following reasons:
+			Rapid progress: By effectively reducing the time it takes to complete various stages of a project, teams can elicit feedback in real time and produce working prototypes or demos throughout the process
+			Customer and stakeholder alignment: Through focusing on customer concerns and stakeholder feedback, the Agile team is well positioned to produce results that satisfy the right people
+			Continuous improvement: As an iterative approach, Agile project management allows teams to chip away at tasks until they reach the best end result
+
+    
+    
+	Agile project management is not a singular framework but an umbrella term that includes a wide range of methodologies, including Scrum, Kanban, Extreme Programming (XP), and the Adaptive Project Framework (APF).
+			Scrum: It is ideal for projects with rapidly changing requirements, using short sprints. 
+			Kanban: It visualizes project progress and is great for tasks requiring steady output.
+			Lean: It streamlines processes, eliminating waste for customer value.
+			Extreme Programming (XP): It enhances software quality and responsiveness to customer satisfaction.
+			Adaptive Project Framework (APF): Works well for projects with unclear details, as it adapts to constantly evolving client needs.
+
+
+	The Agile software development life cycle helps you break down each project you take on into six simple stages:
+			Concept: Define the project scope and priorities
+			Inception: Build the Agile team according to project requirements 
+			Iteration: Create code factoring in customer feedback 
+			Release: Test the code and troubleshoot any issues
+			Maintenance: Provide ongoing tech support to ensure the product remains serviceable
+			Retirement: The end of the product lifespan, which often coincides with the beginning of a new one.
+			
+
+	The four values of Agile are the pillars of Agile methodology. From those values, the team developed 12 principles. 
+		If the four values of Agile are the weight-bearing pillars of a house, then these 12 principles are the rooms you can build within that house. 
+		These principles can be easily adapted to fit the needs of your team. 
+	
+	The 12 principles used in Agile methodology are:
+		
+		Satisfy customers through early, continuous improvement and delivery.When customers receive new updates regularly, they're more likely to see the changes they want within the product. This leads to happier, more satisfied customers—and more recurring revenue.
+		
+		Welcome changing requirements, even late in the project. The Agile framework is all about adaptability. In iterative processes like Agile, being inflexible causes more harm than good. 
+		
+		Deliver value frequently. Similar to principle #1, delivering value to your customers or stakeholders frequently makes it less likely for them to churn. 
+		
+		Break the silos of your projects. Collaboration is key in the Agile framework. The goal is for people to break out of their own individual projects and collaborate together more frequently. 
+		
+		Build projects around motivated individuals. Agile works best when teams are committed and actively working to achieve a goal. 
+		
+		The most effective way to communicate is face-to-face. If you’re working on a distributed team, spend time communicating in ways that involve face-to-face communication like Zoom calls. 
+		
+		Working software is the primary measure of progress. The most important thing that teams should strive for with the Agile framework is the product. The goal here is to prioritize functional software over everything else.
+		
+		Maintain a sustainable working pace. Some aspects of Agile can be fast-paced, but it shouldn't be so fast that team members burn out. The goal is to maintain sustainability throughout the project.
+		
+		Continuous excellence enhances agility. If the team develops excellent code in one sprint, they can continue to build off of it the next. Continually creating great work allows teams to move faster in the future. 
+		
+		Simplicity is essential. Sometimes the simplest solution is the best solution. Agile aims to not overcomplicate things and find simple answers to complex problems. 
+		
+		Self-organizing teams generate the most value. Similar to principle #5, proactive teams become valuable assets to the company as they strive to deliver value.
+		
+		Regularly reflect and adjust your way of work to boost effectiveness. Retrospective meetings are a common Agile practice. It's a dedicated time for teams to look back and reflect on their performance and adapt their behaviors for the future.
+			
+	
+	
+	How to implement the Agile methodology?
+		
+		1. 
+		
+		
+		
+		2.
+		
+		
+		
+		
+		3.
+		
+		
+		
+		
+		4.
+		
+		
+		
+		
+		5.
+		
+		
+		
+		
+		6.
+		
+		
+	--------------------------------------------------------- 26th Spet 2023 UML Diagram ------------------------------------------------------------------------------------------
+	UML (Unified Modeling Language)
+		-> OMG standard, Object Management Group
+		-> Based on work from Booch, Rambaugh, Jacobson
+		
+		UML is a modeling language to express and design documents, software
+		-> Particularly useful for OO design
+		-> Not a process, but some have been proposed using UML
+		-> Independent of implementation language
+
+		
+		
+	Why use UML?
+	
+		-> Open Standard, Graphical notation for
+		-> Specifying, visualizing, constructing, and documenting software systems
+		-> Language can be used from general initial design to very specific detailed design across the entire software development lifecycle
+		-> Increase understanding/communication of product to customers and developers
+		-> Support for diverse application areas
+		-> Support for UML in many software packages today (e.g. Rational, plugins for popular IDE’s like NetBeans, Eclipse)
+		-> Based upon experience and needs of the user community
+		
+	Contributions to UML
+		-> Inundated with methodologies in early 90’s Booch, Jacobson, Yourden, Rumbaugh. Booch, Jacobson merged methods 1994. Rumbaugh joined 1995
+			1997 UML 1.1 from OMG includes input from others, e.g. Yourden
+			UML v2.0 current version
+
+
+
+	Systems, Models and Views
+		-> A model is an abstraction describing a subset of a system
+		-> A view depcits selected aspects of a model.
+		-> A notation is a set of graphical or textual rules for depicting views
+		-> Views and models of a single system may overlap each other.
+		
+		
+		
+	UML Baseline
+		Static 
+			-> Use Case Diagram
+			-> Class Diagram
+		Dynamic 	
+			-> Package Diagram
+			-> Object Diagram
+			-> State Diagram
+			-> Activity Diagram
+			-> Sequence Diagram
+			-> Collaboration Diagram
+		Implementation 	
+			-> Component Diagram
+			-> Deployment Diagram 
+			
+	1. Use Case Diagram
+	-> A use case represents a class of functionality provided by the system as an event flow.
+
+			A use case consists of:
+				-> Unique name
+				-> Participating actors
+				-> Entry conditions
+				-> Flow of events
+				-> Exit conditions
+				-> Special requirements
+	
+	
+	
+	
+	2. Class Diagram
+		->
+		
+		Relationships
+			-> Association ----------------  solid line
+			-> Aggregation --------------<>  solid line
+			-> Composition --------------<*> solied line with filled arrow
+			-> Generalization  <|-------------------------- solid line
+			-> Realization     <|-------------------------- Actual dotted
+			
+			
+		UML Class Notation (VVI for assessment)
+		
+		 ->Lines or arrows between classes indicate relationships
+			Association
+			-> A relationship between instances of two classes, where one class must know about the other to do its work, 
+				e.g. client communicates to server indicated by a straight line or arrow
+			Aggregation 
+			-> An association where one class belongs to a collection, e.g. instructor part of Faculty
+			   Indicated by an empty diamond on the side of the collection
+			Composition
+			-> Strong form of Aggregation 
+			   Lifetime control; components cannot exist without the aggregate
+			   Indicated by a solid diamond on the side of the collection
+			Inheritance
+			-> An inheritance link indicating one class a superclass relationship, e.g. bird is part of mammal
+			   Indicated by triangle pointing to superclass
+		
+		Binary Association
+			A knows about B , But B nows nothing about A.
+			
+			
+		Inheritance 
+		--------------------------------------------------------------------------- 27th September 2023  OOPS ------------------------------------------------------------------------
+			
+	Obeject -> Obeject is an entity which has well defined structure and behviour.	
+				There are four characteristic of an Object	
+					-> State
+					-> Behaviour
+					-> Identity
+					-> Responsibility
+		
+		To support the 
+		 Major Pillars
+			-> Abstraction
+				-> Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing.
+				
+			-> Encapsulation
+				-> Binding (or wrapping) code and data together into a single unit are known as encapsulation. For example, a capsule, it is wrapped with different medicines.
+				
+			-> Inheritence  
+				->  ]When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. 
+					It provides code reusability. It is used to achieve runtime polymorphism.
+				
+			-> Polymorphism 
+				->If one task is performed in different ways, it is known as polymorphism. 
+					For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+			
+		Minor Pillars	
+	      -> Strongly Typecasting
+		  -> Persistence
+		  -> Concurrencing 
+		  
+		
+		
+		
+		1. Object Based Language 
+			-> Supports fist two major pillars
+			   example - Visual Basic
+		
+		2. partial Object Oriented Language
+			-> Supports four major pillars
+			
+		3. Pure Object Oriented Language
+			-> Supports all major and minor pillars
+		
+		
+	Object Diagram
+			Objects and Links
+		
+
+	Packages Diagram
+		-> 
+		
+	
+	Interaction Diagram
+		->
+	
+	Sequence Diagram
+		Sequence Diagram Format
+			-> 
+			-> Destruction
+			-> Timing
+		
+		
+		
+			
+		
+--------------------------------------------------------------------- 28th September 2023 GitHub --------------------------------------------------------------------------------
+
+
+
+	
+				

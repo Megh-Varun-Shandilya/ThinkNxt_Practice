@@ -1,0 +1,14 @@
+Agile Methodlogy
+
+			Agile - >  
+			Benefits of using Agile
+			Waterfall vs Agile
+			Types of Agile Methodlogies
+				-> Scrum, Kanban, Lean, Extreme Programming(XP), Adaptive Project Framework(APF)
+				
+			Sprint Plan 	
+				-> 
+			Agile Software Development Life cycle 
+			Concept, Inception, Iteration, Release, Maintenance, Retirement
+			
+			

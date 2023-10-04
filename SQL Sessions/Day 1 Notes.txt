@@ -1,0 +1,96 @@
+
+Day 1
+
+
+What is a Database?
+A database is a separate application that stores a collection of data. 
+Each database has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
+
+Other kinds of data stores can also be used, such as files on the file system or large hash tables in memory but data fetching and writing would not be so fast and easy with those type of systems.
+
+Nowadays, we use relational database management systems (RDBMS) to store and manage huge volume of data. 
+This is called relational database because all the data is stored into different tables and relations are established using primary keys or other keys known as Foreign Keys.
+
+
+
+What is a Database?
+A database is a separate application that stores a collection of data.
+ Each database has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
+
+Other kinds of data stores can also be used, such as files on the file system or large hash tables in memory but data fetching and writing would not be so fast and easy with those type of systems.
+
+Nowadays, we use relational database management systems (RDBMS) to store and manage huge volume of data. 
+This is called relational database because all the data is stored into different tables and relations are established using primary keys or other keys known as Foreign Keys.
+
+
+
+Before we proceed to explain the MySQL database system, let us revise a few definitions related to the database.
+
+Database − A database is a collection of tables, with related data.
+Table − A table is a matrix with data. A table in a database looks like a simple spreadsheet.
+Column − One column (data element) contains data of one and the same kind, for example the column postcode.
+Row − A row (= tuple, entry or record) is a group of related data, for example the data of one subscription.
+Redundancy − Storing data twice, redundantly to make the system faster.
+Primary Key − A primary key is unique. A key value can not occur twice in one table. With a key, you can only find one row.
+Foreign Key − A foreign key is the linking pin between two tables.
+Compound Key − A compound key (composite key) is a key that consists of multiple columns, because one column is not sufficiently unique.
+Index − An index in a database resembles an index at the back of a book.
+Referential Integrity − Referential Integrity makes sure that a foreign key value always points to an existing row.
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Creating tables and other sample queries.
+
+
+create table shirts (name varchar(30),size enum('xsmall','small','medium','large'));
+
+insert into shirts values('POLO','small');
+
+insert into shirts values('corcs','large');
+insert into shirts values('JP','asdf');
+
+create table member (Member_Id int(5) primary key,Member_Name varchar(20),Member_address varchar(10),Acc_Open_Date date,Membership_type enum('Lifetime','Annual','Half Yearly','Quarterly'),Fees_paid int(5),Max_Books_Allowed int(2),Penalty_Amount double)
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Assignment for MySQL
+
+Books- It contains information about the books belongs to the library
+Column Name	Data Type	Description
+Book_No	Number(6)	Book identification number
+Book_Name		VarChar2(30)	Name of the book
+Author_name	Varchar2(30)	Author of the book
+Cost	Number(7,2)	Cost of the book
+Category	Char(10)	Category like System , Fiction ,Database etc.
+			
+
+1)	Insert data in Book table as follows:
+
+Book_No	Book Name	Author	Cost	Category
+101	Let us C	Denis Ritchie	450	System, 102	Oracle – Complete Ref	Loni	550	Database, 103	Mastering SQL	Loni	250	Database, 104	PL SQL-Ref	Scott Urman	750	Database
+
+
+
+
+1] select all the records
+2] select records whose cost between >=500 and <=700
+3] Find record with book name staring with O letter
+4] find records whose cost is < avg cost
+5] create new table with same structure
+4] create new table as copy of books
+5] create new table with database as category
+6] find record with max cost
+7] find record with min cost
+8]find name of the author who has  published more than one book
+
